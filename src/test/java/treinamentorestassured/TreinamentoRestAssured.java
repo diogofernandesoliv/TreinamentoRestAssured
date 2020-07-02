@@ -95,7 +95,7 @@ public class TreinamentoRestAssured {
                 multiPart("arquivo", new File("src/test/java/org/example/AppTest.java")); //upload de arquivo
     }
 
-    @Test
+    /*@Test
     public void testeComBodyParameterEmObjetoJAva(){
         Pet pet = new Pet();
         pet.setId(99998);
@@ -125,5 +125,5 @@ public class TreinamentoRestAssured {
         pet.setStatus("Available");
 
         given().body(pet);
-    }
+    }*/
 }

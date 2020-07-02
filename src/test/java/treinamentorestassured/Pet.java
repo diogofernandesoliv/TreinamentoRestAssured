@@ -8,6 +8,15 @@ public class Pet {
     public Tag[] tags;
     public String status;
 
+    public Pet(int id, Category category, String name, String[] photoUrls, Tag[] tags, String status){
+        this.id = id;
+        this.category = category;
+        this.name = name;
+        this.photoUrls = photoUrls;
+        this.tags = tags;
+        this.status = status;
+    }
+
     public int getId() {
         return id;
     }
